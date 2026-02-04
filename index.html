@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VirtuallyVTrue | Everything True About Virtualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0b5ed7;
+        }
+
+        header {
+            background: #0b5ed7;
+            color: #fff;
+            padding: 20px 40px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-right: 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 30px;
+        }
+
+        .post {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .post h2 {
+            margin-top: 0;
+            font-size: 22px;
+        }
+
+        .post .meta {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            line-height: 1.6;
+        }
+
+        .sidebar {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            height: fit-content;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 25px 15px;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 900px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+
+            nav {
+                line-height: 1.8;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VirtuallyVTrue</h1>
+    <p>Everything True About Virtualization</p>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">VMware</a>
+        <a href="#">vCenter</a>
+        <a href="#">vSAN</a>
+        <a href="#">NSX</a>
+        <a href="#">Automation</a>
+        <a href="#">Cloud</a>
+        <a href="#">About</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="layout">
+
+        <!-- MAIN CONTENT -->
+        <main>
+            <div class="post">
+                <h2>vCenter Server 8.0 vpxd Service Crashes Intermittently</h2>
+                <div class="meta">July 6, 2025 • VMware / vCenter</div>
+                <p>
+                    In this article, we walk through a real-world issue where the
+                    vpxd service crashes intermittently on vCenter Server 8.0,
+                    how to analyze logs, identify the root cause, and fix it.
+                </p>
+            </div>
+
+            <div class="post">
+                <h2>How to Change Default Repair Delay Time in vSAN</h2>
+                <div class="meta">March 29, 2024 • vSAN</div>
+                <p>
+                    vSAN allows administrators to configure repair delay timers
+                    for host failures. This guide explains why it matters and
+                    how to modify it safely.
+                </p>
+            </div>
+
+            <div class="post">
+                <h2>Resetting VMware Cloud Builder</h2>
+                <div class="meta">February 27, 2024 • VCF</div>
+                <p>
+                    A step-by-step guide to resetting VMware Cloud Builder
+                    when deployments fail or need to be restarted.
+                </p>
+            </div>
+        </main>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">VMware</a></li>
+                <li><a href="#">vCenter</a></li>
+                <li><a href="#">ESXi</a></li>
+                <li><a href="#">vSAN</a></li>
+                <li><a href="#">NSX / NSX-T</a></li>
+                <li><a href="#">VCF</a></li>
+                <li><a href="#">Automation</a></li>
+                <li><a href="#">Backup & Veeam</a></li>
+                <li><a href="#">Cloud Native</a></li>
+            </ul>
+        </aside>
+
+    </div>
+</div>
+
+<footer>
+    © 2026 VirtuallyVTrue • Opinions are personal and for educational purposes only
+</footer>
+
+</body>
+</html>
